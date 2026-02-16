@@ -1,0 +1,21 @@
+# Ignore Python files
+*.py
+*.pyc
+__pycache__/
+
+# Ignore SQLite databases
+*.db
+
+# Ignore JSONL datasets
+*.jsonl
+
+# Ignore backups and scratch files
+*.bak
+*.swp
+*.ipynb
+
+# Optional: exclude any data or analysis folders
+data/
+scripts/
+Manual backups/
+script_backups/

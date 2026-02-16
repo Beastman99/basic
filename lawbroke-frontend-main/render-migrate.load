@@ -1,0 +1,10 @@
+LOAD DATABASE
+FROM sqlite:///Users/benjamineastman/Documents/Uni/2024/Other/LawBroke/Programming/ChatGPT Attempt Feb 2025/Python/lawbroke-frontend/RenderINDEX.db
+INTO postgresql://lawbroke_db_00yg_user:rfyeQvc51e3oYNLuklzNXlGIGZ5DzebC@dpg-d1u9ffmr433s73egj18g-a.oregon-postgres.render.com/lawbroke_db_00yg
+
+WITH include no drop, create tables, create indexes, reset sequences, data only
+SET work_mem to '16MB', maintenance_work_mem to '512 MB'
+CAST type datetime to timestamptz
+     USING zero-dates-to-null,
+           type text to varchar
+     USING truncating to 250
