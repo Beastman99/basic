@@ -59,18 +59,6 @@ export default function Page() {
       <p className="text-xl font-light text-gray-900 dark:text-white mb-6">
         Estimate your compensation, timing, and costs before you commit, using LawBroke’s data-driven case predictor.
       </p>
-      <Link
-  href="/signup"
-  className="
-    w-fit px-6 py-3 rounded
-    bg-gray-900 text-white
-    hover:bg-gray-800
-    dark:bg-[#f5f5f5] dark:text-gray-900 dark:hover:bg-[#e5e5e5]
-    font-semibold transition
-  "
->
-  Get Estimate
-</Link>
     </div>
   }
 />
@@ -86,17 +74,6 @@ export default function Page() {
       Empower yourself with clear, public court data to make fair and informed choices about your
       representation.
     </p>
-    <Link
-  href="/signup"
-  className="
-    w-fit px-6 py-3 rounded
-    bg-red-800 hover:bg-red-700
-    text-white font-semibold transition
-  "
->
-  Sign Up
-</Link>
-
   </div>
 }
           rightHalf={<Accordion />

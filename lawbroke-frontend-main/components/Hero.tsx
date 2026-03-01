@@ -23,7 +23,7 @@ export default function Hero() {
           {/* Buttons: full-width on mobile, inline on desktop */}
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
             <Link
-              href="/signup"
+              href="/FindLawyer"
               className="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3 rounded-md border border-black dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition text-base font-medium"
               aria-label="Go to Lawyer Match"
             >

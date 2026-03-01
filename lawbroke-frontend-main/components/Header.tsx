@@ -63,7 +63,7 @@ export default function Header() {
             openMenu={openMenu}
             setOpenMenu={setOpenMenu}
             items={[
-              { href: "/signup", label: "Lawyer Match" },
+              { href: "/FindLawyer", label: "Lawyer Match" },
               { href: "/signup", label: "Case Predictor" },
               ,
             ]}
